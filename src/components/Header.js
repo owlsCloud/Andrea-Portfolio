@@ -34,7 +34,7 @@ function Header() {
           </li>
           <li>
             <a
-              className="nav__links-link"
+              className="nav__links-socials"
               href="https://www.facebook.com/xylimba/"
             >
               <FaFacebook />
@@ -42,7 +42,7 @@ function Header() {
           </li>
           <li>
             <a
-              className="nav__links-link"
+              className="nav__links-socials"
               href="https://www.instagram.com/perieratanimaequaerentigaudium/"
             >
               <FaInstagram />

@@ -1,9 +1,10 @@
 import Header from "./components/Header";
+import { Router, Routes } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+    </>
   );
 }
 
