@@ -13,7 +13,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className="nav__links-link" href="">
+            <a className="nav__links-link" href="/about">
               About
             </a>
           </li>
