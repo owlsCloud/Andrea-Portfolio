@@ -4,8 +4,8 @@ import "../styles/carousel.scss";
 
 function BSCarousel() {
   return (
-    <Carousel className="carousel">
-      <Carousel.Item>
+    <Carousel controls={false} className="carousel">
+      <Carousel.Item className="carousel__slide-1">
         <img
           className="carousel__slide-img"
           src="holder.js/800x400?text=First slide&bg=373940"
@@ -13,10 +13,9 @@ function BSCarousel() {
         />
         <Carousel.Caption>
           <h3 className="carousel__slide-title">FROM Graduations</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="carousel__slide-2">
         <img
           className="carousel__slide-img"
           src="holder.js/800x400?text=Second slide&bg=282c34"
@@ -25,10 +24,9 @@ function BSCarousel() {
 
         <Carousel.Caption>
           <h3 className="carousel__slide-title">To Marching Events</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className="carousel__slide-3">
         <img
           className="carousel__slide-img"
           src="holder.js/800x400?text=Third slide&bg=20232a"
@@ -37,9 +35,6 @@ function BSCarousel() {
 
         <Carousel.Caption>
           <h3 className="carousel__slide-title">& Even Family Moments</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
