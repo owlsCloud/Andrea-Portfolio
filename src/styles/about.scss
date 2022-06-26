@@ -1,3 +1,44 @@
 .about {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__title {
+    color: #645e5a;
+  }
+  &__bio {
+    padding: 5em;
+    background-color: #ddbea6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+    &-img {
+      margin-right: 2em;
+    }
+    &-summary {
+      font-size: 1.3em;
+      width: 20%;
+      line-height: 1.8em;
+    }
+  }
+
+  &__contact {
+    width: 100%;
+    background-color: #bb987d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-heading {
+      width: 33%;
+      h6 {
+        font-size: 2.2em;
+      }
+    }
+    &-form {
+      display: block;
+    }
+  }
 }

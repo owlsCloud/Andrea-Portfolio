@@ -15,11 +15,11 @@
   &__links {
     list-style-type: none;
     display: inline-flex;
-
+    margin: 1em 0;
     font-size: 1.3em;
     &-link {
       text-decoration: none;
-      margin: 0 1.2em;
+      margin: 1.2em;
       color: #e0c9c1;
       &:hover {
         color: #f5a98f;

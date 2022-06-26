@@ -8,7 +8,7 @@ function Header() {
       <div>
         <ul className="nav__links">
           <li>
-            <a className="nav__links-link" href="">
+            <a className="nav__links-link" href="/">
               Portfolio
             </a>
           </li>
@@ -18,17 +18,17 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className="nav__links-link" href="">
+            <a className="nav__links-link" href="/winds">
               UTRGV Winds
             </a>
           </li>
           <li>
-            <a className="nav__links-link" href="">
+            <a className="nav__links-link" href="/social">
               Social Media
             </a>
           </li>
           <li>
-            <a className="nav__links-link" href="">
+            <a className="nav__links-link" href="/contact">
               Contact
             </a>
           </li>
