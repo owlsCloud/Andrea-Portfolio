@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-between;
   height: 5em;
+  position: fixed;
+  width: 100%;
   &__brand {
     margin: auto 0;
     color: white;
