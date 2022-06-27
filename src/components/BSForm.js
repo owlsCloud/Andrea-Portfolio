@@ -1,30 +1,34 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import "../styles/form.scss";
 function BSForm() {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="formBasicFirst">
-        <Form.Label>First Name </Form.Label>
-        <Form.Control type="text" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicLast">
-        <Form.Label>Last Name </Form.Label>
-        <Form.Control type="text" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email</Form.Label>
-        <Form.Control type="text" />
-      </Form.Group>
-
-      <Form.Group className="mb-3" controlId="formBasicMsg">
-        <Form.Label>Message</Form.Label>
-        <Form.Control type="text" />
-      </Form.Group>
-
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+    <form action="">
+      <div className="form">
+        <div>
+          <div className="form__first-name">
+            <label htmlFor="">First Name</label>
+            <input type="text" />
+          </div>
+          <div className="form__last-name">
+            <label htmlFor="">Last Name</label>
+            <input type="text" />
+          </div>
+          <div className="form__email">
+            <label htmlFor="">Email</label>
+            <input type="text" />
+          </div>
+        </div>
+        <div className="form-right">
+          <div className="form__msg">
+            <label htmlFor="">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div className="form__btn">
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </form>
   );
 }
 

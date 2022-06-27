@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+
+  &__first-name,
+  &__last-name,
+  &__email {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em 1em;
+    input {
+      border: 2px solid black;
+      box-shadow: -4px 4px #ffdae4;
+    }
+  }
+
+  &__msg {
+    display: flex;
+    flex-direction: column;
+    textarea {
+      border: 2px solid black;
+      box-shadow: -4px 4px #ffdae4;
+    }
+  }
+  &__btn {
+    margin-top: 1em;
+    margin-left: 13em;
+    input {
+      background-color: #fed9e2;
+      padding: 1em 1em;
+      border: none;
+    }
+  }
+}
