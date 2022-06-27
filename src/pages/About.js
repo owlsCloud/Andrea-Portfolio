@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import BSForm from "../components/BSForm";
 import andrea from "../assets/images/andrea.PNG";
 import "../styles/about.scss";
 function About() {
@@ -31,16 +32,7 @@ function About() {
           <FaInstagram size="1.5em" />
         </div>
         <div className="about__contact-form">
-          <form action="">
-            <label> First Name</label>
-            <input type="text" />
-            <label> Last Name</label>
-            <input type="text" />
-            <label> Email</label>
-            <input type="text" />
-            <label> Message</label>
-            <input type="text" />
-          </form>
+          <BSForm />
         </div>
       </div>
     </section>
