@@ -43,7 +43,7 @@ function Header() {
           <li>
             <a
               className="nav__links-socials"
-              href="https://www.instagram.com/perieratanimaequaerentigaudium/"
+              href="https://www.instagram.com/adavilaphotography/"
             >
               <FaInstagram />
             </a>
