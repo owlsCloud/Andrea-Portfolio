@@ -28,8 +28,18 @@ function About() {
         <div className="about__contact-heading">
           <h6>Let's Work Together</h6>
           <p>Get in touch so we can start working together.</p>
-          <FaFacebook size="1.5em" style={{ marginRight: "1em" }} />
-          <FaInstagram size="1.5em" />
+          <a
+            className="nav__links-socials"
+            href="https://www.facebook.com/xylimba/"
+          >
+            <FaFacebook size="1.5em" />
+          </a>
+          <a
+            className="nav__links-socials"
+            href="https://www.instagram.com/adavilaphotography/"
+          >
+            <FaInstagram size="1.5em" />
+          </a>
         </div>
         <div className="about__contact-form">
           <BSForm />
