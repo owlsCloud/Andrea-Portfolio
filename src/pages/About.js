@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import BSForm from "../components/BSForm";
 import andrea from "../assets/images/andrea.PNG";
-import "../styles/about.scss";
+import "../styles/pages/about.scss";
 function About() {
   return (
     <section className="about">

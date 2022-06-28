@@ -1,7 +1,7 @@
 import React from "react";
 import windsleft from "../assets/images/windsleft.PNG";
 import windsright from "../assets/images/windsright.PNG";
-import "../styles/winds.scss";
+import "../styles/pages/winds.scss";
 function UTRGVwinds() {
   return (
     <section className="winds">

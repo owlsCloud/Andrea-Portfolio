@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/contact.scss";
+import "../styles/pages/contact.scss";
 import andrea from "../assets/images/andrea_contact.PNG";
 function Contact() {
   return (
