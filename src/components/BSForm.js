@@ -4,7 +4,7 @@ function BSForm() {
   return (
     <form action="">
       <div className="form">
-        <div>
+        <div style={{ marginRight: "5em" }}>
           <div className="form__first-name">
             <label htmlFor="">First Name</label>
             <input type="text" />

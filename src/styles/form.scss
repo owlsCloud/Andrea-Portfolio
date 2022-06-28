@@ -10,9 +10,12 @@
     input {
       border: 2px solid black;
       box-shadow: -4px 4px #ffdae4;
+      padding: 0.2em 3em;
     }
   }
-
+  &__email {
+    margin-top: 4em;
+  }
   &__msg {
     display: flex;
     flex-direction: column;
