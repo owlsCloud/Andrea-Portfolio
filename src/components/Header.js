@@ -4,7 +4,11 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 function Header() {
   return (
     <nav className="nav">
-      <div className="nav__brand">Andrea Davila</div>
+      <div className="nav__brand">
+        <a className="nav__brand-name" href="/">
+          Andrea Davila
+        </a>
+      </div>
       <div>
         <ul className="nav__links">
           <li>

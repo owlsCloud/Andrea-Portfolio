@@ -1,10 +1,15 @@
 import React from "react";
+import windsleft from "../assets/images/windsleft.PNG";
+import windsright from "../assets/images/windsright.PNG";
 import "../styles/winds.scss";
 function UTRGVwinds() {
   return (
     <section className="winds">
-      <h1 className="winds__title">UTRGV WINDS</h1>
+      <div>
+        <img src={windsleft} alt="" />
+      </div>
       <div className="winds__content">
+        <h1 className="winds__title">UTRGV WINDS</h1>
         <p className="winds__content-first">
           April 14th, 2019. We competed at the WGI World Championships for the
           first time ever this weekend, as a first year group, from a small
@@ -82,6 +87,9 @@ function UTRGVwinds() {
           <br />
           <br />
         </p>
+      </div>
+      <div>
+        <img src={windsright} alt="" />
       </div>
     </section>
   );
