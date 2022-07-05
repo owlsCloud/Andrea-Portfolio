@@ -1,35 +1,32 @@
 .contactForm {
-  background-color: #f3f6f4;
-  display: flex;
-  margin-right: 2em;
-  border-radius: 20px;
-  height: auto;
-  padding: 20px;
-  &__name {
-    margin-right: 2em;
-    &-first,
-    &-last {
-      display: flex;
-      flex-direction: column;
-      padding: 10%;
-    }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+
+  &__fname,
+  &__email,
+  &__phone {
+    grid-column: 1;
+  }
+  &__phone {
+  }
+  &__msg {
+    grid-column: 2;
+    grid-row: 3;
   }
 
-  &__email,
-  &__phone,
-  &__msg {
-    padding: 10%;
-    display: flex;
-    flex-direction: column;
+  &__btn {
+    grid-column: span 2;
+    input {
+      width: 100%;
+      background-color: #316142;
+      color: white;
+      padding: 1.5%;
+    }
   }
   input,
   textarea {
-    border-radius: 10%;
-    background-color: #e1e7e3;
-
-    &:focus {
-      outline: none;
-      border: 2px solid green;
-    }
+    outline: none;
   }
 }

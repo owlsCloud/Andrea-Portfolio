@@ -4,30 +4,37 @@ function ContactForm() {
   return (
     <form action="">
       <div className="contactForm">
-        <div className="contactForm__name">
-          <div className="contactForm__name-first">
-            <label htmlFor="">First Name</label>
-            <input type="text" />
-          </div>
-          <div className="contactForm__name-last">
-            <label htmlFor="">Last Name</label>
-            <input type="text" />
-          </div>
-          <div className="contactForm__email">
-            <label htmlFor="">Email</label>
-            <input type="text" />
-          </div>
-          <div className="contactForm__phone">
-            <label htmlFor="">Phone</label>
-            <input type="text" />
+        <div className="contactForm__title">
+          <h2>Get in touch</h2>
+        </div>
+        <div className="contactForm__fname">
+          <label htmlFor="">First Name</label>
+          <div>
+            <input type="text" name="" id="" />
           </div>
         </div>
-
         <div>
-          <div className="contactForm__msg">
-            <label htmlFor="">Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <label htmlFor="">Last Name</label>
+          <div>
+            <input type="text" name="" id="" />
           </div>
+        </div>
+        <div className="contactForm__email">
+          <label htmlFor="">Email</label>
+          <div>
+            <input type="text" name="" id="" />
+          </div>
+          <label htmlFor="">Phone</label>
+          <div>
+            <input type="text" name="" id="" />
+          </div>
+        </div>
+        <div className="contactForm__msg">
+          <label htmlFor="">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div className="contactForm__btn">
+          <input type="submit" name="" id="" />
         </div>
       </div>
     </form>
