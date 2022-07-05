@@ -1,32 +1,14 @@
 .contactForm {
+  height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-content: center;
-  justify-content: center;
-
-  &__fname,
-  &__email,
-  &__phone {
-    grid-column: 1;
-  }
-  &__phone {
-  }
-  &__msg {
-    grid-column: 2;
-    grid-row: 3;
-  }
-
-  &__btn {
+  grid-template-columns: 2fr 2fr;
+  gap: 1.5em;
+  background-color: #f3f6f4;
+  &__header {
     grid-column: span 2;
-    input {
-      width: 100%;
-      background-color: #316142;
-      color: white;
-      padding: 1.5%;
-    }
   }
-  input,
-  textarea {
-    outline: none;
+  &__input {
+  }
+  &__btn {
   }
 }

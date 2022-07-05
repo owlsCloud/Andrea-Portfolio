@@ -7,9 +7,9 @@
   &__content {
     width: 33%;
     display: flex;
-    align-items: center;
-
+    height: auto;
     &-form {
+      margin-right: 2em;
     }
   }
 }

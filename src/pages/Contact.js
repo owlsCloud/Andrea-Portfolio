@@ -9,6 +9,7 @@ function Contact() {
         <div className="contact__content-form">
           <ContactForm />
         </div>
+
         <div className="contact__content-img">
           <img src={andrea} alt="" />
         </div>
