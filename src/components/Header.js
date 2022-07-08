@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/header.scss";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 function Header() {
+  const [visible, setVisible] = useState(false);
+
+  const showMobileMenu = () => {
+    setVisible((curr) => setVisible(!curr));
+  };
   return (
     <nav className="nav">
       <div className="nav__brand">
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          onClick={showMobileMenu}
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+
         <a className="nav__brand-name" href="/">
           Andrea Davila
         </a>
       </div>
       <div>
-        <ul className="nav__links">
+        <ul className="nav__links primary-nav">
           <li>
             <a className="nav__links-link" href="/">
               Portfolio
